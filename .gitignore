@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+backend/ledger.db
+
+backend/reports/*.json
+backend/reports/*.html
+
+datasets/incoming/*
+!datasets/incoming/.gitkeep
+
+.streamlit/
+
+.env
+*.key
+*.pem
